@@ -10,33 +10,36 @@
 
 </head>
 
-
 <div class="container">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
     
-    <div class="row">
-      <div class="col-md-3">
-          <h2 class="card-body text-center text-white bg-info">
-            PJ McCall
-          </h2>
-      </div>
-
-      <div class="col-md-6">
-      </div>
-
-      <div class="col-md-3">
-            <nav class="navbar navbar-expand-sm bg-info navbar-dark card-body">
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="index.html">About</a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link disabled" href="contact.html">Contact</a>
-                      </div>
-                    </div>
-                  </nav>       
-      </div>
+    
+        <div class="row">
+          <div class="col-md-3">
+              <h2 class="card-body text-center text-white bg-info">
+                PJ McCall
+              </h2>
+          </div>
+    
+          <div class="col-md-9">
+          </div>
+     
+          </div>
+        </div>
+    
     </div>
-
-</div>
 
 <div class="background border-top">
 
@@ -60,11 +63,11 @@
 
                 <div class="row">
                     <div class="col-md-6 text-center icon">
-                        <a href="#"><img class="img-responsive" src="assets/images/laptop.jpg" alt="laptop"></a>
+                        <a href="#"><img class="img-thumbnail" src="assets/images/laptop.jpg" alt="laptop" style="width:100%"></a>
                         <div class="bottom-center bg-info text-white">Hangman</div>
                     </div>
                     <div class="col-md-6 text-center icon">
-                        <a href="#"><img class="img-responsive" src="assets/images/ipad.jpg" alt="ipad"></a>
+                        <a href="#"><img class="img-thumbnail" src="assets/images/ipad.jpg" alt="ipad" style="width:100%"></a>
                         <div class="bottom-center bg-info text-white">RPG Game</div>
                     </div>
                 </div>
@@ -73,11 +76,11 @@
 
                 <div class="row">
                     <div class="col-md-6 text-center icon">
-                        <a href="#"><img class="img-responsive" src="assets/images/freeman.jpg" alt="freeman"></a>
+                        <a href="#"><img class="img-thumbnail" src="assets/images/freeman.jpg" alt="freeman" style="width:100%"></a>
                         <div class="bottom-center bg-info text-white">Trivia Game</div>
                     </div>
                     <div class="col-md-6 text-center icon">
-                        <a href="#"><img class="img-responsive" src="assets/images/steak.jpg" alt="steak"></a>
+                        <a href="#"><img class="img-thumbnail" src="assets/images/steak.jpg" alt="steak" style="width:100%"></a>
                         <div class="bottom-center bg-info text-white">Rutgers Widget Info</div>
                     </div>
                 </div>
@@ -85,7 +88,7 @@
 
                 <div class="row">
                     <div class="col-md-6 text-center icon">
-                        <a href="#"><img class="img-responsive" src="assets/images/beyonce.jpg" alt="beyonce"></a>
+                        <a href="#"><img class="img-thumbnail" src="assets/images/beyonce.jpg" alt="beyonce" style="width:100%"></a>
                         <div class="bottom-center bg-info text-white">Rock Paper Scissors</div>
                     </div>
                     <div class="col-md-6 text-center">
@@ -136,10 +139,6 @@
             background-image: url("assets/images/background.png");
           }
         
-            .navbar {
-            margin-bottom: 0 !important;
-            border: 0 !important;
-            }
         .icon {
             position: relative;
             text-align: center;
@@ -149,20 +148,23 @@
             }
             .bottom-center {
                 position: absolute;
-                width: 76%;
+                width: 88%;
                 bottom: 20%;
-                left: 12%; 
+                left: 6%; 
             }
+
+            .navbar {
+            margin-bottom: 0 !important;
+            border: 0 !important;
+            }
+            
+            .nav-link:hover {
+          background-color: #4aaaa5;
+        }
 
         .icon:hover {
           background-color: #666666;
         }
-
-        .nav-link:hover {
-            background-color: black;
-        }
-
-        
         </style>        
 
 </html>
